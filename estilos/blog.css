@@ -12,7 +12,7 @@ a{
 
 section img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
 }
 
 header {
@@ -44,6 +44,34 @@ header li {
     margin: 1em;
 }
 
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email {
+    background-image: url("../Imagens/email.png");
+}
+
+#contato .face {
+    background-image: url("../Imagens/facebook.png");
+}
+
+#contato .twitter {
+    background-image: url("../Imagens/twitter.png");
+}
+
+#contato .github {
+    background-image: url("../Imagens/github.png");
+}
+
+#contato .linkedin {
+    background-image: url("../Imagens/linkedin.png");
+}
+
 .container {
     padding-left: 10%;
     padding-right: 10%;
@@ -59,7 +87,6 @@ section {
     background-color: #579FF0;
     color: #FCFCFD;
     padding: 10em 2em 7em;
-
 }
 
 .identificacao h1 {
@@ -94,7 +121,11 @@ header li a {
 
 .projetos-header{
     float: left;
+    width: 30%;
+}
 
+.projetos-header h3 {
+    margin-top: 1em;
 }
 
 .styleprojetos{
@@ -140,7 +171,7 @@ header li a {
 #sobre img {
     width: 200px;
     position: absolute;
-    top: 2em;
+    top: 2.18em;
     right: 10%;
 }
 
