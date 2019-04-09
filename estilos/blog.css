@@ -4,8 +4,7 @@
 
 body{
     background-color: white;
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family: cursive;
 }
 
 a{
@@ -15,6 +14,8 @@ a{
 section img {
     width: 100%;
     max-width: 250px;
+    border-radius: 25px;
+    border: 3px solid #4682B4;
 }
 
 header {
@@ -30,12 +31,15 @@ header {
 }
 
 header ul{
-    text-align: right;
+    text-align: center;
 }
 
 header li a {
     font-weight: lighter;
     text-transform: uppercase;
+    border-left: 2px #fff;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 header li {
@@ -58,6 +62,8 @@ header li {
 
 #contato h3{
     color: #fff;
+    background-color: #2B313E;
+    border-radius: 55%;
 }
 
 #contato .email {
@@ -96,7 +102,6 @@ section {
     background-size: 100%;
     background-attachment: fixed;
     padding: 15em 7em 12em;
-    font: url("../fontes/OpenSans-ExtraBold.ttf");
 }
 
 .identificacao h1 {
@@ -107,6 +112,12 @@ section {
 .identificacao h2 {
     font-size: 1.5em;
     font-weight: lighter;
+}
+
+.sombra {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #111;
+
 }
 
 section h3 {
@@ -120,12 +131,11 @@ header li a {
 }
 
 .escuras {
-    background-color: #FF4500;
+    background-color: #4682B4;
     color: #FCFCFD;
 }
 
 .claras {
-    background-color: #FCFCFD;
     color: #2B313E;
 }
 
@@ -136,11 +146,11 @@ header li a {
 
 .projetos-header h3 {
     margin-top: 1em;
-    color: #fff;
+    color: #111;
 }
 
 .projetos-header p {
-    color: #fff;
+    color: #111;
 }
 
 .styleprojetos{
@@ -148,9 +158,12 @@ header li a {
 }
 
 .styleprojetos li {
-    background-color: #6F768B;
+    background-color: #708090;
     padding: 1em;
     margin-bottom: 2em;
+    border-radius: 15px;
+    border: 3px solid #4682B4;
+
 }
 
 .styleprojetos li a {
@@ -182,16 +195,22 @@ header li a {
 
 #sobre {
     position: relative;
+    
+}
+
+#texto {
+    border: solid 2px #fff;
 }
 
 #sobre img {
     width: 200px;
     position: absolute;
-    top: 2.18em;
-    right: 10%;
+    top: 2.99em;
+    right: 15%;
 }
 
 footer {
     padding-top: 1em;
     padding-bottom: 1em;
+    background-color: #4682B4;
 }
