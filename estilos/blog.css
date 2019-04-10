@@ -105,17 +105,19 @@ section {
 }
 
 .identificacao h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin-bottom: 0.7em;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .identificacao h2 {
     font-size: 1.5em;
     font-weight: lighter;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .sombra {
-    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-width: 2.3px;
     -webkit-text-stroke-color: #111;
 
 }
@@ -135,22 +137,23 @@ header li a {
     color: #FCFCFD;
 }
 
-.claras {
-    color: #2B313E;
-}
-
 .projetos-header{
     float: left;
     width: 30%;
+    -webkit-text-stroke-width: 1.8px;
+    -webkit-text-stroke-color: #111;
 }
 
 .projetos-header h3 {
     margin-top: 1em;
     color: #111;
+    font-size: 2.5em;
 }
 
 .projetos-header p {
     color: #111;
+    font-size: 1.25em;
+
 }
 
 .styleprojetos{
@@ -163,12 +166,13 @@ header li a {
     margin-bottom: 2em;
     border-radius: 15px;
     border: 3px solid #4682B4;
-
 }
 
 .styleprojetos li a {
     color: #ffffff;
     font-size: 1.3em;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
 }
 
 .styleprojetos li p {
@@ -176,6 +180,7 @@ header li a {
     margin-top: 0.5em;
     text-align: justify;
     line-height: 1.2;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 #sobre p.text {
@@ -202,6 +207,13 @@ header li a {
     border: solid 2px #fff;
 }
 
+#texto a {
+color: #fff;
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: #fff;
+
+}
+
 #sobre img {
     width: 200px;
     position: absolute;
@@ -213,4 +225,5 @@ footer {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: #4682B4;
+    font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
 }
